@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cofe-webK</title>
+    <title>Cofe-webside</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- Header/Nacbar -->
     <header>
@@ -14,6 +17,10 @@
                 <h2 class="logo-text">☕Cofee</h2>
             </a>
             <ul class="nav-menu">
+                <buton id="menu-close-button" class="fas fa-times"></buton>
+
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">Home</a>
                 </li>
@@ -34,6 +41,8 @@
                 </li>
             </ul>
 
+            <buton id="menu-open-button" class="fas fa-bars"></buton>
+
         </nav>
     </header>
 
@@ -44,7 +53,8 @@
                 <div class="hero-details">
                     <h2 class="title">Best Coffee</h2>
                     <h3 class="subtitle">Make your day great whit our special coofee!</h3>
-                    <p class="description">Welcom to our cofeee paradise, where every bean tells a story and very cup sparks joy</p>
+                    <p class="description">Welcom to our cofeee paradise, where every bean tells a story and very cup
+                        sparks joy</p>
                     <div class="buttons">
                         <a href="#" class="button order-now">Order Now</a>
                         <a href="#" class="button contact-us">Contact us</a>
@@ -58,7 +68,39 @@
 
             </div>
         </section>
+
+
+        <!-- About section -->
+        <section class="about-section">
+
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/about-image.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">Welcome to <strong>Café Chase</strong>, a cozy retreat in the heart of Talamanca. We are the perfect
+                        destination for coffee lovers seeking a warm and peaceful space to unwind. Our selection of
+                        artisanal coffees and homemade pastries creates the ideal atmosphere for enjoying good moments,
+                        whether alone or in great company. With a nature-inspired decor and friendly service, we invite
+                        you to savor the pleasure of a good cup in a unique setting. We can't wait to welcome you! ☕✨
+                    </p>
+
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
     </main>
-    
+    <script src="/js/script.js"></script>
+
 </body>
+
 </html>
