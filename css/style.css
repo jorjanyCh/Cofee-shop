@@ -305,6 +305,8 @@ header .navbar {
         width: calc(100% / 3 - 60px);
     }
 }
+/* Aqui codigo de bebidas */
+
 
 /* Responsive media query code for max width 900px */
 @media screen and (max-width:900px) {
